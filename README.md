@@ -19,22 +19,20 @@ The AI Image Generator is a JavaScript-powered tool that converts text into imag
    cd ai-image-generator
 
 Usage
-Open the web application in your browser.
+1. Open the web application in your browser.
 
-Fill in the text input with a description of the image you want to generate.
+2. Fill in the text input with a description of the image you want to generate.
 
-Choose the desired number of images from the dropdown menu.
+3. Choose the desired number of images from the dropdown menu.
 
-Click the "Generate" button to initiate the image generation process.
+4. Click the "Generate" button to initiate the image generation process.
 
-The application will display the generated images once they are ready.
+5. The application will display the generated images once they are ready.
 
-Technologies Used
-HTML
-CSS (with Poppins font from Google Fonts)
-JavaScript
 
-penAI API Integration
+
+### OpenAI API Integration
 To use this application, you need to obtain an API key from OpenAI and replace the OPENAI_API_KEY variable in the script.js file with your key.
+
 const OPENAI_API_KEY = "your-api-key-goes-here";
 
